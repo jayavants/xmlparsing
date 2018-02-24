@@ -24,6 +24,8 @@ public class DAO {
 		
 		try {
 			
+			//database communication 
+			
 			Class.forName("com.mysql.jdbc.Driver");
 			
 			conn = DriverManager.getConnection("jdbc:mysql://215.216.217.62:3306/devdb","dev_user","devpass");
