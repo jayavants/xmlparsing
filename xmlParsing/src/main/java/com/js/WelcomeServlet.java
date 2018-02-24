@@ -26,7 +26,10 @@ public class WelcomeServlet extends HttpServlet {
 	
 	
     public WelcomeServlet() {
+    	
         super();
+        
+        System.out.println("");
         
     }
 
